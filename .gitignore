@@ -1,2 +1,7 @@
 .idea/
 notebooks/.ipynb_checkpoints/
+dist/
+HybridSinCosFit.egg-info/
+build/
+notebooks/images/
+HybridSinCosFit/__pycache__/
