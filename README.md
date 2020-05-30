@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://github.com/JoseCelis/HOBIT/blob/add_readme/images/logo.png?raw=true" alt="Sublime's custom image"/>
+ <img src="https://github.com/anamabo/HOBIT/blob/master/images/logo.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 # HOBIT: Harmonic Oscillator hyBrid fIT
@@ -29,7 +29,7 @@ Make sure you have installed:
 To install HOBIT, go to the directory where the code is located and type in a console:
 
 `
-pip install HOBIT
+python setup.py install
 `
 
 ## Get started
