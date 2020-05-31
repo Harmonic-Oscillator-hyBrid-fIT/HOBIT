@@ -5,3 +5,4 @@ HybridSinCosFit.egg-info/
 build/
 notebooks/images/
 HybridSinCosFit/__pycache__/
+to_remove/
