@@ -1,4 +1,5 @@
 import numpy as np
+import logging
 from hyperopt import hp, tpe, Trials, fmin
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.linear_model import LinearRegression
@@ -22,7 +23,7 @@ class RegressionForTrigonometric(BaseEstimator, TransformerMixin):
         def objective(omega, phi): return np.mean((self.a0 + self.a1 * self.trig_func(omega * X + phi) - y) ** 2)
 
         def objective2(args): return objective(*args)
-
+        logging.debug('Performing tpe algorithm to fng optimal omega and phi')
         tpe_best = fmin(fn=objective2, space=space, algo=tpe_algorithm, trials=tpe_trials, **kwargs)
 
         return tpe_best
@@ -80,6 +81,10 @@ class RegressionForTrigonometric(BaseEstimator, TransformerMixin):
         return ypred
 
     def fit_sin(self, X, y, **kwargs):
+        # default domain of the Sine function "phi in (0, 2pi)"
+        if self.phi_range == (-np.pi, np.pi):
+            logging.debug('The defined domain of Sine function is (0, 2*pi)')
+            self.phi_range = (0, 2 * np.pi)
         return self._fit(X, y, trig_func='sin', **kwargs)
 
     def fit_cos(self, X, y, **kwargs):
