@@ -16,21 +16,17 @@ f(x) = y_0 + y_1 * Cos(omega * x + phi)
 whose are commonly used to describe harmonic oscillators.
 
 ## Install
-
+Install HOBIT-0.0.3-py2.py3-none-any.whl that you can find in dist folder using 
+```
+pip install HOBIT-0.0.3-py2.py3-none-any.whl
+```
 ### Requirements
-Make sure you have installed:
+Hobit will install/update the next python libraries
 
-* pandas
-* numpy
-* hyperopt
-* sklearn
-
-### 
-To install HOBIT, go to the directory where the code is located and type in a console:
-
-`
-python setup.py install
-`
+* pandas>=1.1.3
+* numpy>=1.19.2
+* hyperopt>=0.2.7
+* sklearn>=0.23.2
 
 ## Get started
 In the folder notebooks you will find four jupyther notebooks with the following examples:
