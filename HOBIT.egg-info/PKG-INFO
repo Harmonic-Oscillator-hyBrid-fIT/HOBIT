@@ -1,10 +1,12 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: HOBIT
-Version: 0.0.2
+Version: 0.0.3
 Summary: an installable package for Hybrid fitting of Sine and Cosine functions
-Home-page: https://github.com/anamabo/HOBIT
+Home-page: https://github.com/Harmonic-Oscillator-hyBrid-fIT/HOBIT
 Author: Carmen Adriana Martinez Barbosa, Jose Arturo Celis Gil
 Author-email: anamabo3@gmail.com, solocelis@gmail.com
 License: UNKNOWN
 Description: UNKNOWN
 Platform: UNKNOWN
+Classifier: Programmiing Language :: Python :: 3
+Classifier: Operatng System :: OS IIndependent

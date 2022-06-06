@@ -5,4 +5,6 @@ HOBIT/__init__.py
 HOBIT.egg-info/PKG-INFO
 HOBIT.egg-info/SOURCES.txt
 HOBIT.egg-info/dependency_links.txt
+HOBIT.egg-info/not-zip-safe
+HOBIT.egg-info/requires.txt
 HOBIT.egg-info/top_level.txt

@@ -1,11 +1,22 @@
 from setuptools import setup, Extension
 
+
+with open("requirements.txt") as f:
+    requirements = f.read().splitlines()
+
+
 setup(
     name='HOBIT',
-    version='0.0.2',
+    version='0.0.3',
     description='an installable package for Hybrid fitting of Sine and Cosine functions',
-    packages=['HOBIT'],
+    url='https://github.com/Harmonic-Oscillator-hyBrid-fIT/HOBIT',
     author='Carmen Adriana Martinez Barbosa, Jose Arturo Celis Gil',
     author_email='anamabo3@gmail.com, solocelis@gmail.com',
-    url='https://github.com/anamabo/HOBIT'
+    packages=['HOBIT'],
+    install_requires=requirements,
+    classifiers=[
+        "Programmiing Language :: Python :: 3",
+        "Operatng System :: OS IIndependent"
+    ],
+    zip_safe=False
 )
