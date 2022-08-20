@@ -1,12 +1,51 @@
-Metadata-Version: 1.1
+Metadata-Version: 2.1
 Name: HOBIT
-Version: 0.0.3
+Version: 0.0.4
 Summary: an installable package for Hybrid fitting of Sine and Cosine functions
 Home-page: https://github.com/Harmonic-Oscillator-hyBrid-fIT/HOBIT
 Author: Carmen Adriana Martinez Barbosa, Jose Arturo Celis Gil
 Author-email: anamabo3@gmail.com, solocelis@gmail.com
 License: UNKNOWN
-Description: UNKNOWN
+Description: <p align="center">
+         <img src="https://github.com/anamabo/HOBIT/blob/master/images/logo.png?raw=true" alt="Sublime's custom image"/>
+        </p>
+        
+        # HOBIT: Harmonic Oscillator hyBrid fIT
+        ## Efficient fit of sine(cosine) functions using a hybrid method
+        
+        HOBIT is a Python library that combines the power of Hyperopt (https://github.com/hyperopt/hyperopt) with the flexibility of Sklearn oriented 
+        to the teaching of physics that is able to fit in a very efficient way functions with the shape
+        
+        ```
+        f(x) = y_0 + y_1 * Sin(omega * x + phi)
+        f(x) = y_0 + y_1 * Cos(omega * x + phi)
+        ```
+        
+        whose are commonly used to describe harmonic oscillators.
+        
+        ## Install
+        Install HOBIT-0.0.3-py2.py3-none-any.whl that you can find in dist folder using 
+        ```
+        pip install HOBIT-0.0.3-py2.py3-none-any.whl
+        ```
+        ### Requirements
+        Hobit will install/update the next python libraries
+        
+        * pandas>=1.1.3
+        * numpy>=1.19.2
+        * hyperopt>=0.2.7
+        * sklearn>=0.23.2
+        
+        ## Get started
+        In the folder notebooks you will find four jupyther notebooks with the following examples:
+        
+        1. Fit of a Cosine function using scipy and description of the gradient descent methond.
+        2. Fit of a Cosine function using Hyperopt package.
+        3. Fit of a Cosine function using HOBIT package.
+        4. Fit of a Cosine function using HOBIT package.
+        
+        Detailed explanation on the usage of these codes are inside the notebooks.
 Platform: UNKNOWN
-Classifier: Programmiing Language :: Python :: 3
-Classifier: Operatng System :: OS IIndependent
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
