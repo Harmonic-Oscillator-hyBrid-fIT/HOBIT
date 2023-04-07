@@ -1,4 +1,6 @@
+MANIFEST.in
 README.md
+requirements.txt
 setup.py
 HOBIT/HOBIT.py
 HOBIT/__init__.py
