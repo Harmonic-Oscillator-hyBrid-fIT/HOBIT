@@ -16,9 +16,9 @@ f(x) = y_0 + y_1 * Cos(omega * x + phi)
 whose are commonly used to describe harmonic oscillators.
 
 ## Install
-Install HOBIT-0.0.3-py2.py3-none-any.whl that you can find in dist folder using 
+Install HOBIT 0.0.4
 ```
-pip install HOBIT-0.0.3-py2.py3-none-any.whl
+pip install HOBIT==0.0.4
 ```
 ### Requirements
 Hobit will install/update the next python libraries
