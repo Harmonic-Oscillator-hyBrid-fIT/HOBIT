@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "HOBIT"
-version = "0.0.7"
+version = "1.0.0"
 description = "an installable package for Hybrid fitting of Sine and Cosine functions"
 authors = [
     "Jose Arturo Celis Gil <solocelis@gmail.com>",
