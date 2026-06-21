@@ -1,8 +1,14 @@
-.idea/
+.venv/
 notebooks/.ipynb_checkpoints/
 HybridSinCosFit.egg-info/
+HOBIT.egg-info/
 build/
+dist/
 notebooks/images/
 HybridSinCosFit/__pycache__/
+HOBIT/__pycache__/
 to_remove/
+poetry.lock
+CLAUDE.md
 Makefile
+
