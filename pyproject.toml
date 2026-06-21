@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "HOBIT"
+version = "0.0.7"
+description = "an installable package for Hybrid fitting of Sine and Cosine functions"
+authors = [
+    "Jose Arturo Celis Gil <solocelis@gmail.com>",
+    "Carmen Adriana Martinez Barbosa <anamabo3@gmail.com>"
+]
+readme = "README.md"
+homepage = "https://github.com/Harmonic-Oscillator-hyBrid-fIT/HOBIT"
+packages = [{include = "HOBIT"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+pandas = ">=2.0.0"
+numpy = ">=1.26.0"
+optuna = ">=3.0.0"
+scikit-learn = ">=1.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

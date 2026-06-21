@@ -8,7 +8,7 @@ with open("README.md") as f:
 
 setup(
     name='HOBIT',
-    version='0.0.6',
+    version='0.0.7',
     description='an installable package for Hybrid fitting of Sine and Cosine functions',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -17,6 +17,7 @@ setup(
     author_email='anamabo3@gmail.com, solocelis@gmail.com',
     packages=['HOBIT'],
     install_requires=requirements,
+    python_requires='>=3.9',
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent"
